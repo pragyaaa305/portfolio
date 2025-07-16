@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WElcome_to_portfolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in {
+        animation: fade-in 1s ease-out forwards;
+      }
+    </style>
+</head>
+    <body class="bg-[#0f0f2d] text-white font-sans scroll-smooth">
+        <!-- Navbar -->
+        <!-- Navbar -->
+        <nav
+          class="fixed top-0 left-0 w-full bg-[#0e0e1a]/80 backdrop-blur-md border-b border-white/20 shadow-md z-50"
+        >
+          <div
+            class="max-w-7xl mx-auto px-4 flex justify-between items-center py-4"
+          >
+            <!-- Left Logo -->
+            <h1 class="text-lg font-semibold text-purple-400">
+              Pragya Tripathi
+            </h1>
+
+            <!-- Center Menu -->
+            <ul class="hidden md:flex space-x-10 text-gray-300 text-base">
+              <li>
+                <a
+                  href="#home"
+                  class="hover:text-purple-400 transition duration-300 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="hover:text-purple-400 transition duration-300 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  class="hover:text-purple-400 transition duration-300 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]"
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="hover:text-purple-400 transition duration-300 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]"
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+  <a
+    href="#tools"
+    class="hover:text-purple-400 transition duration-300 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)]"
+  >
+    Tools
+  </a>
+</li>
+            </ul>
+
+            <!-- Right Resume Button -->
+            <a
+              href="./YourResume.pdf"
+              download
+              class="hidden md:inline-block px-4 py-2 text-sm rounded-lg font-medium bg-white text-[#0e0e1a] hover:bg-gray-200 transition"
+            >
+              Resume
+            </a>
+          </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section
+          id="home"
+          class="min-h-screen flex items-center justify-center px-4 pt-20 bg-[#0f0f2d]"
+        >
+          <div
+            class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left animate-fade-up"
+          >
+            <!-- Left Content -->
+            <div class="space-y-6">
+              <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+                Hi, I'm <span class="text-purple-500">Pragya Tripathi</span>
+              </h1>
+              <p class="text-xl text-gray-300">
+                Web Developer & UI/UX Designer
+              </p>
+              <p class="text-gray-400 italic">
+                "Design is not just what it looks like, but how it works."
+              </p>
+              <a
+                href="./YourResume.pdf"
+                download
+                class="inline-block bg-purple-600 hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] transition px-6 py-3 rounded-lg font-semibold"
+              >
+                Download My CV
+              </a>
+            </div>
+
+            <!-- Right Avatar -->
+            <div class="flex justify-center md:justify-end">
+              <img
+                src="file:///C:/Users/Dell/Pictures/female%20icon.png"
+                alt="My Avatar"
+                class="w-52 h-52 md:w-64 md:h-64 rounded-full object-cover border-4 border-purple-500 shadow-lg"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- About Me Section -->
+        <section
+          id="about"
+          class="py-20 bg-[#0f0f2d] text-white bg-gradient-to-br from-[#0f0f2d] to-[#1a1a3f]"
+        >
+          <div
+            class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center"
+          >
+            <!-- Left: About Text -->
+            <div class="space-y-6 animate-fade-up">
+              <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
+              <p class="text-gray-300 leading-relaxed">
+                I'm a passionate
+                <span class="text-purple-400 font-semibold"
+                  >Web Developer & UI/UX Designer</span
+                >
+                who loves building responsive, user-friendly, and visually
+                appealing websites. My goal is to craft engaging digital
+                experiences that combine creativity and functionality.
+              </p>
+              <p class="text-gray-400">
+                Currently improving my frontend and UI/UX skills while exploring
+                new technologies for creating modern web solutions.
+              </p>
+            </div>
+
+            <!-- Right: Skills -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 animate-fade-up">
+              <!-- Skill Card -->
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">HTML</p>
+              </div>
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">CSS</p>
+              </div>
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">JavaScript</p>
+              </div>
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">Tailwind</p>
+              </div>
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">React</p>
+              </div>
+              <div
+                class="bg-[#1a1a3f] p-4 rounded-lg text-center shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)]"
+              >
+                <p class="text-lg font-semibold text-purple-400">UI/UX</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-[#0f0f2d] text-white">
+          <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">My Projects</h2>
+
+            <!-- Project Cards -->
+            <div class="grid md:grid-cols-3 gap-8">
+              <!-- Project 1 -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="Portfolio Website"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    Portfolio Website
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A responsive personal portfolio built with HTML and Tailwind
+                    CSS.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: HTML, Tailwind CSS
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="E-commerce UI"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    E-commerce UI
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A clean and modern e-commerce user interface design.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: HTML, Tailwind CSS
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="Landing Page"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    Landing Page
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A modern landing page with responsive layout and animations.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: HTML, Tailwind CSS
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 4: Clothing Website -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="Clothing Website UI"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    Clothing Website UI
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A stylish UI/UX design for an online clothing store with
+                    product grid and filters.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: Figma, UI/UX Design
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Design
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 5: AI Website UI -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="AI Website UI"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    AI Platform UI
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A futuristic AI tool landing page focusing on usability and
+                    clean design.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: Figma, UI/UX Design
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Design
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 6: Feedback UI -->
+              <div
+                class="bg-[#1a1a3f] rounded-lg overflow-hidden shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_12px_rgba(168,85,247,0.8)] animate-fade-up"
+              >
+                <img
+                  src="https://via.placeholder.com/400x250"
+                  alt="Feedback UI"
+                  class="w-full h-48 object-cover"
+                />
+                <div class="p-6 text-left">
+                  <h3 class="text-xl font-semibold text-purple-400 mb-2">
+                    Feedback UI
+                  </h3>
+                  <p class="text-gray-300 mb-4">
+                    A sleek and simple UI for collecting user feedback with
+                    interactive elements.
+                  </p>
+                  <p class="text-sm text-gray-400 mb-4">
+                    Tools: Figma, UI/UX Design
+                  </p>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="inline-block px-4 py-2 bg-purple-600 hover:bg-purple-700 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] rounded-md text-white font-medium transition"
+                  >
+                    View Design
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Tools I Used Section -->
+<section id="tools" class="py-20 bg-[#0f0f2d] text-white border-t border-white/10">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Tools I Used</h2>
+    <p class="text-gray-300 max-w-2xl mx-auto mb-12">
+      Technologies & platforms I use to design, build, and ship my work.
+    </p>
+
+    <!-- Tools Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+      <!-- HTML -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-brands fa-html5 text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">HTML5</p>
+      </div>
+      <!-- Tailwind -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-solid fa-wind text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">Tailwind CSS</p>
+      </div>
+      <!-- JavaScript -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-brands fa-js text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">JavaScript</p>
+      </div>
+      <!-- React -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-brands fa-react text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">React</p>
+      </div>
+      <!-- Figma -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-brands fa-figma text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">Figma</p>
+      </div>
+      <!-- VS Code -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-solid fa-code text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">VS Code</p>
+      </div>
+      <!-- GitHub -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <i class="fa-brands fa-github text-4xl text-purple-400"></i>
+        <p class="mt-3 font-semibold text-purple-300">GitHub</p>
+      </div>
+      <!-- CodeSandbox -->
+      <div class="bg-[#1a1a3f] p-6 rounded-lg shadow-md transition transform hover:scale-105 hover:drop-shadow-[0_0_8px_rgba(168,85,247,0.8)] text-center">
+        <!-- <img src="" alt="" class="w-10 h-10 mx-auto"> -->
+        <p class="mt-3 font-semibold text-purple-300">CodeSandbox</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-[#1a1a3f] text-white">
+          <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Get In Touch</h2>
+            <p class="text-gray-300 mb-10">
+              Have a question or want to work together? Drop me a message below.
+            </p>
+
+            <!-- Contact Form -->
+            <form class="space-y-6">
+              <div class="grid md:grid-cols-2 gap-6">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="w-full p-4 rounded-md bg-[#0f0f2d] border border-gray-700 focus:border-purple-500 focus:ring focus:ring-purple-500/30 text-white transition"
+                />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="w-full p-4 rounded-md bg-[#0f0f2d] border border-gray-700 focus:border-purple-500 focus:ring focus:ring-purple-500/30 text-white transition"
+                />
+              </div>
+              <textarea
+                rows="5"
+                placeholder="Your Message"
+                class="w-full p-4 rounded-md bg-[#0f0f2d] border border-gray-700 focus:border-purple-500 focus:ring focus:ring-purple-500/30 text-white transition"
+              ></textarea>
+              <button
+                type="submit"
+                class="px-6 py-3 bg-purple-600 text-white rounded-md font-semibold hover:bg-purple-700 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition"
+              >
+                Send Message
+              </button>
+            </form>
+
+            <!-- Social Icons -->
+            <div class="flex justify-center space-x-6 mt-10">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition text-2xl"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition text-2xl"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition text-2xl"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- Footer -->
+        <footer
+          class="bg-[#0f0f2d] text-gray-400 py-6 border-t border-white/20"
+        >
+          <div
+            class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
+          >
+            <!-- Left: Copyright -->
+            <p class="text-sm">&copy; 2025 MyPortfolio. All rights reserved.</p>
+
+            <!-- Right: Links -->
+            <div class="flex space-x-6">
+              <a
+                href="#home"
+                class="hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition"
+                >Home</a
+              >
+              <a
+                href="#about"
+                class="hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition"
+                >About</a
+              >
+              <a
+                href="#projects"
+                class="hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition"
+                >Projects</a
+              >
+              <a
+                href="#contact"
+                class="hover:text-purple-400 hover:drop-shadow-[0_0_6px_rgba(168,85,247,0.8)] transition"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </footer>
+      </body>
+</html>
